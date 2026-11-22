@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'talker = 1_pubsub.talker.py:main',   # 수정
+            'talker = 1_pubsub.talker:main',   # 수정
             'listener = 1_pubsub.listener:main'
         ],
     },
