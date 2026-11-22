@@ -1,0 +1,5 @@
+RobotPose current_pose
+float64 distance
+---
+RobotPose result_pose
+bool success
